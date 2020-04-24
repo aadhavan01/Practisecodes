@@ -12,13 +12,12 @@ public class Keyboard_Events {
 
 	public static void main(String[] args) {
 		
-System.setProperty("webdriver.chrome.driver", "G:\\selenium\\chromedriver_81.exe");
+        System.setProperty("webdriver.chrome.driver", "G:\\selenium\\chromedriver_81.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		
 		driver.manage().window().maximize();
-		
-			
+				
 		driver.get("https://www.facebook.com");
 		
 		Actions act = new Actions(driver);
