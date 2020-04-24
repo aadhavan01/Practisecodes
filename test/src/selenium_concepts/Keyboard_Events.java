@@ -37,6 +37,8 @@ System.setProperty("webdriver.chrome.driver", "G:\\selenium\\chromedriver_81.exe
 		.pause(Duration.ofSeconds(2))
 		.sendKeys("gdghsdc")
 		.build().perform();
+		
+		driver.quit();
 
 
 	}
