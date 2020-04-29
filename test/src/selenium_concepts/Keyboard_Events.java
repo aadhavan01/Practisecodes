@@ -20,6 +20,7 @@ public class Keyboard_Events {
 				
 		driver.get("https://www.facebook.com");
 		
+		
 		Actions act = new Actions(driver);
 		
 		driver.findElement(By.name("firstname")).sendKeys("Selenium");
