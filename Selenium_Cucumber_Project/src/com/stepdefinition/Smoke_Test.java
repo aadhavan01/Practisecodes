@@ -9,9 +9,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
 
 public class Smoke_Test {
 	
@@ -21,7 +22,7 @@ public class Smoke_Test {
 	public void Open_Firefox_and_start_application() throws Throwable {
 		
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\USER\\Downloads\\Selenium\\Browser_Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".Browserexe\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		
