@@ -17,7 +17,7 @@ public class Test {
 	@Given("Open the url")
 	public void open_the_url() {
 	    
-		System.setProperty("webdriver.chrome.driver", "C:\\Selenium_jars\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".browsersexe\\chromedriver.exe");
 	    driver = new ChromeDriver();
 							
 			driver.manage().window().maximize();
@@ -38,6 +38,8 @@ public class Test {
 	@Then("close the browser")
 	public void close_the_browser() {
 	    driver.quit();
+	    
+	    System.out.println("Closed the browser");
 	}
 
 
