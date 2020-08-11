@@ -17,7 +17,7 @@ public class Test {
 	@Given("Open the url")
 	public void open_the_url() {
 	    
-		System.setProperty("webdriver.chrome.driver", ".browsersexe\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium_jars\\chromedriver.exe");
 	    driver = new ChromeDriver();
 							
 			driver.manage().window().maximize();
