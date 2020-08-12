@@ -1,0 +1,77 @@
+[
+  {
+    "source": "Open the fb sign in page",
+    "steps": [
+      {
+        "name": "Open the fb sign in page",
+        "aggregatedDurations": {
+          "median": 3.62322595,
+          "average": 3.62322595
+        },
+        "durations": [
+          {
+            "duration": 3.9457371,
+            "location": "file:///C:/Users/aadhavan.nagarajan/eclipse-workspace/com.cucumber/Features/application.feature:5"
+          },
+          {
+            "duration": 3.3007148,
+            "location": "file:///C:/Users/aadhavan.nagarajan/eclipse-workspace/com.cucumber/Features/application.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "enter credentials {string} and {string}",
+    "steps": [
+      {
+        "name": "enter credentials \"aadhavan\" and \"jhjhgjh\"",
+        "aggregatedDurations": {
+          "median": 6.1703626,
+          "average": 6.1703626
+        },
+        "durations": [
+          {
+            "duration": 6.1703626,
+            "location": "file:///C:/Users/aadhavan.nagarajan/eclipse-workspace/com.cucumber/Features/application.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "enter credentials \"aadhavan01\" and \"jhgjhgk\"",
+        "aggregatedDurations": {
+          "median": 5.9273245,
+          "average": 5.9273245
+        },
+        "durations": [
+          {
+            "duration": 5.9273245,
+            "location": "file:///C:/Users/aadhavan.nagarajan/eclipse-workspace/com.cucumber/Features/application.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "validate the login and close browser",
+    "steps": [
+      {
+        "name": "validate the login and close browser",
+        "aggregatedDurations": {
+          "median": 1.0065934,
+          "average": 1.0065934
+        },
+        "durations": [
+          {
+            "duration": 0.7142111,
+            "location": "file:///C:/Users/aadhavan.nagarajan/eclipse-workspace/com.cucumber/Features/application.feature:7"
+          },
+          {
+            "duration": 1.2989757,
+            "location": "file:///C:/Users/aadhavan.nagarajan/eclipse-workspace/com.cucumber/Features/application.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]

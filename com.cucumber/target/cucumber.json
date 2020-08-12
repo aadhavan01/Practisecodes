@@ -1,0 +1,137 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-12T17:01:59.631Z",
+        "line": 11,
+        "name": "Login testing",
+        "description": "",
+        "id": "test-fb-login-credentials;login-testing;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3945737100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the fb sign in page",
+            "match": {
+              "location": "stepDefinition.Methods.open_the_fb_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6170362600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter credentials \"aadhavan\" and \"jhjhgjh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"aadhavan\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"jhjhgjh\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinition.Methods.enter_credentials_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 714211100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate the login and close browser",
+            "match": {
+              "location": "stepDefinition.Methods.validate_the_login_and_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-12T17:02:10.596Z",
+        "line": 12,
+        "name": "Login testing",
+        "description": "",
+        "id": "test-fb-login-credentials;login-testing;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3300714800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the fb sign in page",
+            "match": {
+              "location": "stepDefinition.Methods.open_the_fb_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5927324500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter credentials \"aadhavan01\" and \"jhgjhgk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"aadhavan01\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"jhgjhgk\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinition.Methods.enter_credentials_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1298975700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate the login and close browser",
+            "match": {
+              "location": "stepDefinition.Methods.validate_the_login_and_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test fb login credentials",
+    "description": "",
+    "id": "test-fb-login-credentials",
+    "keyword": "Feature",
+    "uri": "file:Features/application.feature",
+    "tags": []
+  }
+]
