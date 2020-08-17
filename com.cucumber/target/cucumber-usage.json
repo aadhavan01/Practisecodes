@@ -5,17 +5,21 @@
       {
         "name": "Open the fb sign in page",
         "aggregatedDurations": {
-          "median": 3.62322595,
-          "average": 3.62322595
+          "median": 3.5830528,
+          "average": 4.1584499
         },
         "durations": [
           {
-            "duration": 3.9457371,
-            "location": "file:///C:/Users/aadhavan.nagarajan/eclipse-workspace/com.cucumber/Features/application.feature:5"
+            "duration": 5.4467563,
+            "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:5"
           },
           {
-            "duration": 3.3007148,
-            "location": "file:///C:/Users/aadhavan.nagarajan/eclipse-workspace/com.cucumber/Features/application.feature:5"
+            "duration": 3.5830528,
+            "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:5"
+          },
+          {
+            "duration": 3.4455406,
+            "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:17"
           }
         ]
       }
@@ -27,26 +31,39 @@
       {
         "name": "enter credentials \"aadhavan\" and \"jhjhgjh\"",
         "aggregatedDurations": {
-          "median": 6.1703626,
-          "average": 6.1703626
+          "median": 6.0181225,
+          "average": 6.0181225
         },
         "durations": [
           {
-            "duration": 6.1703626,
-            "location": "file:///C:/Users/aadhavan.nagarajan/eclipse-workspace/com.cucumber/Features/application.feature:6"
+            "duration": 6.0181225,
+            "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:6"
           }
         ]
       },
       {
         "name": "enter credentials \"aadhavan01\" and \"jhgjhgk\"",
         "aggregatedDurations": {
-          "median": 5.9273245,
-          "average": 5.9273245
+          "median": 6.1667565,
+          "average": 6.1667565
         },
         "durations": [
           {
-            "duration": 5.9273245,
-            "location": "file:///C:/Users/aadhavan.nagarajan/eclipse-workspace/com.cucumber/Features/application.feature:6"
+            "duration": 6.1667565,
+            "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "enter credentials \"sceanrio\" and \"pass\"",
+        "aggregatedDurations": {
+          "median": 5.3671786,
+          "average": 5.3671786
+        },
+        "durations": [
+          {
+            "duration": 5.3671786,
+            "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:18"
           }
         ]
       }
@@ -58,17 +75,21 @@
       {
         "name": "validate the login and close browser",
         "aggregatedDurations": {
-          "median": 1.0065934,
-          "average": 1.0065934
+          "median": 0.7751846,
+          "average": 0.922577566
         },
         "durations": [
           {
-            "duration": 0.7142111,
-            "location": "file:///C:/Users/aadhavan.nagarajan/eclipse-workspace/com.cucumber/Features/application.feature:7"
+            "duration": 0.7751846,
+            "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:7"
           },
           {
-            "duration": 1.2989757,
-            "location": "file:///C:/Users/aadhavan.nagarajan/eclipse-workspace/com.cucumber/Features/application.feature:7"
+            "duration": 0.7745121,
+            "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:7"
+          },
+          {
+            "duration": 1.218036,
+            "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:19"
           }
         ]
       }

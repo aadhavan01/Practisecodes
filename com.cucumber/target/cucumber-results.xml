@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="21.695">
-    <testcase classname="Test fb login credentials" name="Login testing" time="10.936">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="33.242">
+    <testcase classname="Test fb login credentials" name="Login testing" time="12.358">
         <system-out><![CDATA[Given Open the fb sign in page..............................................passed
 When enter credentials "aadhavan" and "jhjhgjh".............................passed
 Then validate the login and close browser...................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Test fb login credentials" name="Login testing 2" time="10.53">
+    <testcase classname="Test fb login credentials" name="Login testing 2" time="10.535">
         <system-out><![CDATA[Given Open the fb sign in page..............................................passed
 When enter credentials "aadhavan01" and "jhgjhgk"...........................passed
+Then validate the login and close browser...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test fb login credentials" name="test login of fb" time="10.037">
+        <system-out><![CDATA[Given Open the fb sign in page..............................................passed
+When enter credentials "sceanrio" and "pass"................................passed
 Then validate the login and close browser...................................passed
 ]]></system-out>
     </testcase>

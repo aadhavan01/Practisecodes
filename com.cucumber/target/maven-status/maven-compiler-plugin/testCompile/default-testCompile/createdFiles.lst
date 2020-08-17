@@ -1,2 +1,4 @@
+stepDefinition\Hooks.class
 com\execute\Runner_New.class
+com\execute\Runner_NewWith_TestNG.class
 stepDefinition\Methods.class

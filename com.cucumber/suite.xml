@@ -1,0 +1,13 @@
+<suite name = "sample">
+<test name = "sample test">
+
+<classes>
+
+<class name = "com.execute.Runner_NewWith_TestNG">
+</class>
+
+</classes>
+
+</test>
+
+</suite>
