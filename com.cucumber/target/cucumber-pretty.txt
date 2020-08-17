@@ -1,4 +1,16 @@
 
+@smoke
+Scenario Outline: Login testing                   [90m# Features/application.feature:11[0m
+  [32mGiven [0m[32mOpen the fb sign in page[0m                  [90m# stepDefinition.Methods.open_the_fb_sign_in_page()[0m
+  [32mWhen [0m[32menter credentials [0m[32m[1m"aadhavan"[0m[32m and [0m[32m[1m"jhjhgjh"[0m [90m# stepDefinition.Methods.enter_credentials_and(java.lang.String,java.lang.String)[0m
+  [32mThen [0m[32mvalidate the login and close browser[0m       [90m# stepDefinition.Methods.validate_the_login_and_close_the_browser()[0m
+
+@smoke
+Scenario Outline: Login testing                     [90m# Features/application.feature:12[0m
+  [32mGiven [0m[32mOpen the fb sign in page[0m                    [90m# stepDefinition.Methods.open_the_fb_sign_in_page()[0m
+  [32mWhen [0m[32menter credentials [0m[32m[1m"aadhavan01"[0m[32m and [0m[32m[1m"jhgjhgk"[0m [90m# stepDefinition.Methods.enter_credentials_and(java.lang.String,java.lang.String)[0m
+  [32mThen [0m[32mvalidate the login and close browser[0m         [90m# stepDefinition.Methods.validate_the_login_and_close_the_browser()[0m
+
 @sanity
 Scenario: test login of fb                     [90m# Features/application.feature:15[0m
   [32mGiven [0m[32mOpen the fb sign in page[0m               [90m# stepDefinition.Methods.open_the_fb_sign_in_page()[0m

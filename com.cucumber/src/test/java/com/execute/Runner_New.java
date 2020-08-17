@@ -9,8 +9,9 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="Features",
 glue="stepDefinition",
 plugin= {"html:target/cucumber-html-report","json:target/cucumber.json","pretty:target/cucumber-pretty.txt","usage:target/cucumber-usage.json",
-		"junit:target/cucumber-results.xml"}, tags="@sanity")
+		"junit:target/cucumber-results.xml"})
 
+//tags="@sanity"
 
 //,tags ="@smoke
 public class Runner_New {

@@ -21,6 +21,8 @@ public class Methods {
 	 ExtentHtmlReporter reporter;
 	 ExtentReports report;
 	 ExtentTest logger;
+	 
+	 int count ;
 	
 	
 	@Given("Open the fb sign in page")
@@ -32,7 +34,7 @@ public class Methods {
 		
 		report.attachReporter(reporter);
 				
-		 logger = report.createTest("launching browser");
+		 logger = report.createTest("launching browser for test data: "+count);
 		
 				
 		System.setProperty("webdriver.chrome.driver", "./browserexe/chromedriver.exe");
@@ -80,6 +82,8 @@ public class Methods {
 		logger.log(Status.INFO, "Closing the browser");
 		
 		driver.quit();
+		
+		count++;
 		
 		report.flush();
 		

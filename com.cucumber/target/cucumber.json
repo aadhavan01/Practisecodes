@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-08-17T05:45:46.716Z",
+        "start_timestamp": "2020-08-17T05:49:35.394Z",
         "before": [
           {
             "result": {
-              "duration": 3104400,
+              "duration": 3914000,
               "status": "passed"
             },
             "match": {
@@ -16,7 +16,190 @@
           },
           {
             "result": {
-              "duration": 545600,
+              "duration": 1148000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.initialize()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login testing",
+        "description": "",
+        "id": "test-fb-login-credentials;login-testing;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1033700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.tear_down()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4764206700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the fb sign in page",
+            "match": {
+              "location": "stepDefinition.Methods.open_the_fb_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6758756200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter credentials \"aadhavan\" and \"jhjhgjh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"aadhavan\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"jhjhgjh\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinition.Methods.enter_credentials_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1305801200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate the login and close browser",
+            "match": {
+              "location": "stepDefinition.Methods.validate_the_login_and_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T05:49:48.364Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.setting_up()"
+            }
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.initialize()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login testing",
+        "description": "",
+        "id": "test-fb-login-credentials;login-testing;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.tear_down()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3438619000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the fb sign in page",
+            "match": {
+              "location": "stepDefinition.Methods.open_the_fb_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5769298800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter credentials \"aadhavan01\" and \"jhgjhgk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"aadhavan01\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"jhgjhgk\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinition.Methods.enter_credentials_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1060601300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate the login and close browser",
+            "match": {
+              "location": "stepDefinition.Methods.validate_the_login_and_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T05:49:58.648Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.setting_up()"
+            }
+          },
+          {
+            "result": {
               "status": "passed"
             },
             "match": {
@@ -31,7 +214,6 @@
         "after": [
           {
             "result": {
-              "duration": 997300,
               "status": "passed"
             },
             "match": {
@@ -44,7 +226,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5131971300,
+              "duration": 3491626800,
               "status": "passed"
             },
             "line": 17,
@@ -56,7 +238,7 @@
           },
           {
             "result": {
-              "duration": 8018305100,
+              "duration": 5433053600,
               "status": "passed"
             },
             "line": 18,
@@ -78,7 +260,7 @@
           },
           {
             "result": {
-              "duration": 1215215500,
+              "duration": 735336200,
               "status": "passed"
             },
             "line": 19,
