@@ -35,7 +35,7 @@ public class Methods {
 		 logger = report.createTest("launching browser");
 		
 				
-		System.setProperty("webdriver.chrome.driver", "C:\\Selenium_jars\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./browserexe/chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		

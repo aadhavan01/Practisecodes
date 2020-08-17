@@ -5,20 +5,12 @@
       {
         "name": "Open the fb sign in page",
         "aggregatedDurations": {
-          "median": 3.5830528,
-          "average": 4.1584499
+          "median": 5.1319713,
+          "average": 5.1319713
         },
         "durations": [
           {
-            "duration": 5.4467563,
-            "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:5"
-          },
-          {
-            "duration": 3.5830528,
-            "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:5"
-          },
-          {
-            "duration": 3.4455406,
+            "duration": 5.1319713,
             "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:17"
           }
         ]
@@ -29,40 +21,14 @@
     "source": "enter credentials {string} and {string}",
     "steps": [
       {
-        "name": "enter credentials \"aadhavan\" and \"jhjhgjh\"",
-        "aggregatedDurations": {
-          "median": 6.0181225,
-          "average": 6.0181225
-        },
-        "durations": [
-          {
-            "duration": 6.0181225,
-            "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:6"
-          }
-        ]
-      },
-      {
-        "name": "enter credentials \"aadhavan01\" and \"jhgjhgk\"",
-        "aggregatedDurations": {
-          "median": 6.1667565,
-          "average": 6.1667565
-        },
-        "durations": [
-          {
-            "duration": 6.1667565,
-            "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:6"
-          }
-        ]
-      },
-      {
         "name": "enter credentials \"sceanrio\" and \"pass\"",
         "aggregatedDurations": {
-          "median": 5.3671786,
-          "average": 5.3671786
+          "median": 8.0183051,
+          "average": 8.0183051
         },
         "durations": [
           {
-            "duration": 5.3671786,
+            "duration": 8.0183051,
             "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:18"
           }
         ]
@@ -75,20 +41,12 @@
       {
         "name": "validate the login and close browser",
         "aggregatedDurations": {
-          "median": 0.7751846,
-          "average": 0.922577566
+          "median": 1.2152155,
+          "average": 1.2152155
         },
         "durations": [
           {
-            "duration": 0.7751846,
-            "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:7"
-          },
-          {
-            "duration": 0.7745121,
-            "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:7"
-          },
-          {
-            "duration": 1.218036,
+            "duration": 1.2152155,
             "location": "file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:19"
           }
         ]
