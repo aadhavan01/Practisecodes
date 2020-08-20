@@ -9,11 +9,13 @@ Feature: Test fb login credentials
     Examples: 
       | username   |  | password |
       | aadhavan   |  | jhjhgjh  |
-      | aadhavan01 |  | jhgjhgk  |
+     
       
       @sanity
-   Scenario: test login of fb
+   Scenario: Test radio buttons
       
-    Given Open the fb sign in page
-    When enter credentials "sceanrio" and "pass"
-    Then validate the login and close browser
+    Given Open the url
+    When Click the radio buttons
+    Then validate and close the browser
+    
+    

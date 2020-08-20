@@ -6,14 +6,20 @@ public class ReverseAString {
 		
 		String st = "Hello Yes";
 		
+		String rev="";
+		
 		System.out.println(st.length());
 		
 		for(int i = st.length()-1;i>=0;i--) {
+			
+			rev= rev+st.charAt(i);
 			
 			System.out.print(st.charAt(i));
 			
 			
 		}
+		
+	//	System.out.println(rev);
 		
 
 	}

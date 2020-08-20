@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="33.175">
-    <testcase classname="Test fb login credentials" name="Login testing" time="12.956">
-        <system-out><![CDATA[Given Open the fb sign in page..............................................passed
-When enter credentials "aadhavan" and "jhjhgjh".............................passed
-Then validate the login and close browser...................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Test fb login credentials" name="Login testing 2" time="10.276">
-        <system-out><![CDATA[Given Open the fb sign in page..............................................passed
-When enter credentials "aadhavan01" and "jhgjhgk"...........................passed
-Then validate the login and close browser...................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Test fb login credentials" name="test login of fb" time="9.665">
-        <system-out><![CDATA[Given Open the fb sign in page..............................................passed
-When enter credentials "sceanrio" and "pass"................................passed
-Then validate the login and close browser...................................passed
-]]></system-out>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.698">
+    <testcase classname="Test fb login credentials" name="Login testing" time="6.491">
+        <failure message="" type="java.lang.NullPointerException"><![CDATA[Given Open the fb sign in page..............................................failed
+When enter credentials "aadhavan" and "jhjhgjh".............................skipped
+Then validate the login and close browser...................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at pageobjects.HomePage.firstpage(HomePage.java:28)
+	at stepDefinition.Methods.open_the_fb_sign_in_page(Methods.java:85)
+	at ✽.Open the fb sign in page(file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:5)
+]]></failure>
     </testcase>
 </testsuite>

@@ -3,24 +3,15 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-08-17T05:49:35.394Z",
+        "start_timestamp": "2020-08-18T07:01:53.620Z",
         "before": [
           {
             "result": {
-              "duration": 3914000,
+              "duration": 5753747200,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinition.Hooks.setting_up()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1148000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinition.Hooks.initialize()"
+              "location": "stepDefinition.Methods.initialize()"
             }
           }
         ],
@@ -31,11 +22,11 @@
         "after": [
           {
             "result": {
-              "duration": 1033700,
+              "duration": 635949200,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinition.Hooks.tear_down()"
+              "location": "stepDefinition.Methods.tear_down()"
             }
           }
         ],
@@ -44,8 +35,9 @@
         "steps": [
           {
             "result": {
-              "duration": 4764206700,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat pageobjects.HomePage.firstpage(HomePage.java:28)\r\n\tat stepDefinition.Methods.open_the_fb_sign_in_page(Methods.java:85)\r\n\tat ✽.Open the fb sign in page(file:///C:/Users/aadhavan.nagarajan/git/Practisecodes/com.cucumber/Features/application.feature:5)\r\n",
+              "duration": 11997300,
+              "status": "failed"
             },
             "line": 5,
             "name": "Open the fb sign in page",
@@ -56,8 +48,8 @@
           },
           {
             "result": {
-              "duration": 6758756200,
-              "status": "passed"
+              "duration": 1010400,
+              "status": "skipped"
             },
             "line": 6,
             "name": "enter credentials \"aadhavan\" and \"jhjhgjh\"",
@@ -78,8 +70,8 @@
           },
           {
             "result": {
-              "duration": 1305801200,
-              "status": "passed"
+              "duration": 620000,
+              "status": "skipped"
             },
             "line": 7,
             "name": "validate the login and close browser",
@@ -92,188 +84,6 @@
         "tags": [
           {
             "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-08-17T05:49:48.364Z",
-        "before": [
-          {
-            "result": {
-              "duration": 997300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinition.Hooks.setting_up()"
-            }
-          },
-          {
-            "result": {
-              "duration": 997200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinition.Hooks.initialize()"
-            }
-          }
-        ],
-        "line": 12,
-        "name": "Login testing",
-        "description": "",
-        "id": "test-fb-login-credentials;login-testing;;3",
-        "after": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinition.Hooks.tear_down()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3438619000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Open the fb sign in page",
-            "match": {
-              "location": "stepDefinition.Methods.open_the_fb_sign_in_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5769298800,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "enter credentials \"aadhavan01\" and \"jhgjhgk\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"aadhavan01\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"jhgjhgk\"",
-                  "offset": 35
-                }
-              ],
-              "location": "stepDefinition.Methods.enter_credentials_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1060601300,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "validate the login and close browser",
-            "match": {
-              "location": "stepDefinition.Methods.validate_the_login_and_close_the_browser()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-08-17T05:49:58.648Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinition.Hooks.setting_up()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinition.Hooks.initialize()"
-            }
-          }
-        ],
-        "line": 15,
-        "name": "test login of fb",
-        "description": "",
-        "id": "test-fb-login-credentials;test-login-of-fb",
-        "after": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinition.Hooks.tear_down()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3491626800,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Open the fb sign in page",
-            "match": {
-              "location": "stepDefinition.Methods.open_the_fb_sign_in_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5433053600,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "enter credentials \"sceanrio\" and \"pass\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sceanrio\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"pass\"",
-                  "offset": 33
-                }
-              ],
-              "location": "stepDefinition.Methods.enter_credentials_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 735336200,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "validate the login and close browser",
-            "match": {
-              "location": "stepDefinition.Methods.validate_the_login_and_close_the_browser()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@sanity"
           }
         ]
       }
